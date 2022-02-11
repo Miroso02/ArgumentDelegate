@@ -1,4 +1,4 @@
-package com.idapgroup.argumentdelegate
+package io.github.miroso02.argumentdelegate
 
 import android.app.Activity
 import org.junit.Test

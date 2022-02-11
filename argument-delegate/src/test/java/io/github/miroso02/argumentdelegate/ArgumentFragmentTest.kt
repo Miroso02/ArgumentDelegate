@@ -1,4 +1,4 @@
-package com.idapgroup.argumentdelegate
+package io.github.miroso02.argumentdelegate
 
 import androidx.fragment.app.Fragment
 import org.junit.Test

@@ -9,7 +9,7 @@ import androidx.core.os.bundleOf
 import androidx.core.text.parseAsHtml
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.idapgroup.argumentdelegate.argumentDelegate
+import io.github.miroso02.argumentdelegate.argumentDelegate
 import kotlinx.android.synthetic.main.fragment_data_receiver.*
 
 class DataReceiverFragment : Fragment() {
