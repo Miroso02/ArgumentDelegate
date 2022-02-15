@@ -6,9 +6,6 @@ ext {
     publishedGroupId = 'io.github.Miroso02'
     artifact = libraryName.toLowerCase()
 
-    bintrayRepo = 'kotlin'
-    bintrayName = libraryName
-
     libraryDescription = 'Property binding for Android Bundle arguments. Written for simple bundle unpacking for Kotlin users.'
     libraryVersion = '1.0.3'
 
@@ -18,7 +15,6 @@ ext {
     licenseName = 'BSD 3-Clause License'
     licenseUrl = "$siteUrl/blob/master/LICENSE"
     allLicenses = ["BSD 3-Clause"]
-
 }
 
 task androidSourcesJar(type: Jar) {
@@ -56,12 +52,11 @@ afterEvaluate {
                 }
 
                 artifact androidSourcesJar
-//                artifact javadocJar
 
                 pom {
                     name = artifact
-                    description = 'Testing maven publish'
-                    url = 'https://github.com/Miroso02/ArgumentDelegate'
+                    description = libraryDescription
+                    url = siteUrl
                     licenses {
                         license {
                             name = licenseName
@@ -75,7 +70,7 @@ afterEvaluate {
                     }
                     developers {
                         developer {
-                            id = 'zsmb13'
+                            id = '111111'
                             name = 'Ivan Stronov'
                             email = 'vaniastronov@gmail.com'
                         }
