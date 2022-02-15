@@ -7,7 +7,7 @@ ext {
     artifact = libraryName.toLowerCase()
 
     libraryDescription = 'Property binding for Android Bundle arguments. Written for simple bundle unpacking for Kotlin users.'
-    libraryVersion = '1.0.3'
+    libraryVersion = '1.0.4'
 
     siteUrl = "https://github.com/Miroso02/ArgumentDelegate"
     gitUrl = "${siteUrl}.git"
